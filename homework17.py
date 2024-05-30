@@ -1,5 +1,5 @@
 class Building:
-    total = 40
+    total = 0
 
     def __init__(self, total):
         Building.total = total
