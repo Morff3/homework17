@@ -6,5 +6,5 @@ class Building:
 
 
 
-for total in range(1, 40):
+for total in range(1, 41):
     print('Постройка:', total)
