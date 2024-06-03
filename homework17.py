@@ -1,11 +1,11 @@
-class Buiding:
+class Building:
     total = 0
 
     def __init__(self):
-        Buiding.total += 1
+        Building.total += 1
 
 
-building = Buiding()
+for i in range(40):
+    building = Building()
+    print(f'Здание: {Building.total}')
 
-for building.total in range(41):
-    print(Buiding.total)
